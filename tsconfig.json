@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "ES5",
     "module": "commonjs",
     "jsx": "react",
     "moduleResolution": "node",
@@ -12,7 +12,8 @@
     "removeComments": false,
     "declaration": true,
     "sourceMap": true,
-    "pretty": true
+    "pretty": true,
+    "outDir": "lib"
   },
   "compileOnSave": true
 }
